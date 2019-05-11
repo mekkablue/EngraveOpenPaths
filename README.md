@@ -16,7 +16,7 @@ This is a plugin for the [Glyphs font editor](http://glyphsapp.com/). It closes 
 ### Workflow for open-path fonts
 
 1. Add an instance in *Font Info > Instances.*
-2. In the instance, add a custom parameter, property *Filter,* and value: `EngraveOpenPaths`.
+2. In the instance, add a custom parameter with property `Filter` and value `EngraveOpenPaths`.
 3. *File > Export* (Cmd-E) to the [Adobe Fonts Folder](https://glyphsapp.com/tutorials/testing-your-fonts-in-adobe-apps) **without overlap removal**, and without hinting.
 4. In Adobe Illustrator, set text with your font.
 5. Convert the text to outlines (Cmd-Shift-O).
