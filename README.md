@@ -18,6 +18,9 @@ This is a plugin for the [Glyphs font editor](http://glyphsapp.com/). It closes 
 1. Add an instance in *Font Info > Instances.*
 2. In the instance, add a custom parameter, property *Filter,* and value: `EngraveOpenPaths`.
 3. Export to the Adobe Fonts Folder **without overlap removal**, and without hinting.
+4. In Adobe Illustrator, set text with your font.
+5. Convert the text to outlines (Cmd-Shift-O).
+6. While Illustrator is the frontmost application, run the AppleScript *Open Paths for Engraving* from the Script menu.
 
 ### License
 
