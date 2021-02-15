@@ -19,8 +19,8 @@ class EngraveOpenPaths(FilterWithoutDialog):
 	
 	def settings(self):
 		self.menuName = Glyphs.localize({
-			'en': u'Engrave Open Paths',
-			'de': u'Offene Pfade für AI schließen',
+			'en': 'Engrave Open Paths',
+			'de': 'Offene Pfade für AI schließen',
 		})
 		self.keyboardShortcut = None # With Cmd+Shift
 

@@ -3,9 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>CFBundleDevelopmentRegion</key>
-	<string>English</string>
-	<key>CFBundleDisplayName</key>
-	<string>Engrave Open Paths</string>
+	<string>en</string>
 	<key>CFBundleExecutable</key>
 	<string>plugin</string>
 	<key>CFBundleIdentifier</key>
@@ -13,26 +11,24 @@
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>EngraveOpenPaths</string>
-	<key>CFBundlePackageType</key>
-	<string>BNDL</string>
+	<string>Engrave Open Paths</string>
 	<key>CFBundleShortVersionString</key>
-	<string>1.3</string>
+	<string>1.4</string> <!-- 1.0 -->
 	<key>CFBundleVersion</key>
-	<string>4</string>
-	<key>NSHumanReadableCopyright</key>
-	<string>Copyright, Rainer Erich Scheichelbauer, 2019</string>
-	<key>NSPrincipalClass</key>
-	<string>EngraveOpenPaths</string>
-	<key>PyMainFileNames</key>
-	<array>
-		<string>../MacOS/main.py</string>
-	</array>
+	<string>4</string> <!-- 123 -->
 	<key>UpdateFeedURL</key>
 	<string>https://raw.githubusercontent.com/mekkablue/EngraveOpenPaths/master/EngraveOpenPaths.glyphsFilter/Contents/Info.plist</string>
 	<key>productPageURL</key>
 	<string>https://github.com/mekkablue/EngraveOpenPaths</string>
 	<key>productReleaseNotes</key>
 	<string>update binary files for Glyphs3</string>
+	<key>NSHumanReadableCopyright</key>
+	<string>Copyright, Rainer Erich Scheichelbauer, 2019</string>
+	<key>NSPrincipalClass</key>
+	<string>EngraveOpenPaths</string>
+	<key>PyMainFileNames</key>
+	<array>
+		<string>plugin.py</string>
+	</array>
 </dict>
 </plist>
